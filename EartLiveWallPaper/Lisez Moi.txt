@@ -1,0 +1,32 @@
+EarthLiveWallpaper version 1.0
+Développé en C# par Thierry BOUQUET : tbo1374@gmail.com
+Licence GPL.
+
+Si vous aimez et utilisez ce programme, vous pouvez faire un don aux associations suivantes :
+
+ - L'Asbl Fibro'Aide, Entraide et soutien Fibromyalgie : http://www.lafibromyalgie.be/Donation.html
+
+ - L'association Fibromyalgie France : http://www.fibromyalgie-france.org/?ADHERER_-_FAIRE_UN_DON
+
+
+Instructions :
+
+Important : Pour fonctionner sous XP, le framework Netfx2.0 de Microsoft, ou supérieur, doit être installé sur l'ordinateur.
+
+Au lancement du programme, celui-ci n'apparait que comme une icone dans la zone de notification de Windows.
+
+Un clic droit sur cet icone donne accès au menu :
+
+- Options : Toutes les options du programme, choix du type d'image, délai de rafraichissement, positionnement à l'écran de l'image et lancement automatique du programme à l'ouverture de la session.
+
+- A propos... l'incontournable boite de dialogue "A propos..."
+
+- Quitter : Pour mettre fin au programme (avant une désinstallation par exemple).
+
+La prévisualisation de l'image n'est qu'approximative... elle ne sert qu'à donner un aperçu.
+
+Ce programme a été testé sous Windows 7 (32 et 64 bits) et sous Windows XP SP3 32 bits.
+
+Pour tout bug ou suggestion, n'hésitez pas à m'envoyer un petit mail.
+
+Remerciements au site http://www.die.net/ qui fourni les images en temps réel sur le net.

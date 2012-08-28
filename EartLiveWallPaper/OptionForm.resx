@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelChoice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelChoice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 38</value>
+  </data>
+  <data name="labelChoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelChoice.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelChoice.Text" xml:space="preserve">
+    <value>Type de projection</value>
+  </data>
+  <data name="labelChoice.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelChoice.Name" xml:space="preserve">
+    <value>labelChoice</value>
+  </data>
+  <data name="&gt;&gt;labelChoice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelChoice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelChoice.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="radioButtonRectangular.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 90</value>
+  </data>
+  <data name="radioButtonRectangular.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 24</value>
+  </data>
+  <data name="radioButtonRectangular.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="radioButtonRectangular.Text" xml:space="preserve">
+    <value>Rectangular</value>
+  </data>
+  <data name="&gt;&gt;radioButtonRectangular.Name" xml:space="preserve">
+    <value>radioButtonRectangular</value>
+  </data>
+  <data name="&gt;&gt;radioButtonRectangular.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonRectangular.Parent" xml:space="preserve">
+    <value>groupBoxSelect</value>
+  </data>
+  <data name="&gt;&gt;radioButtonRectangular.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButtonMollweide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 60</value>
+  </data>
+  <data name="radioButtonMollweide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 24</value>
+  </data>
+  <data name="radioButtonMollweide.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radioButtonMollweide.Text" xml:space="preserve">
+    <value>Mollweide</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMollweide.Name" xml:space="preserve">
+    <value>radioButtonMollweide</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMollweide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMollweide.Parent" xml:space="preserve">
+    <value>groupBoxSelect</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMollweide.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButtonPeters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="radioButtonPeters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 24</value>
+  </data>
+  <data name="radioButtonPeters.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radioButtonPeters.Text" xml:space="preserve">
+    <value>Peters</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPeters.Name" xml:space="preserve">
+    <value>radioButtonPeters</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPeters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPeters.Parent" xml:space="preserve">
+    <value>groupBoxSelect</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPeters.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radioButtonMercator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="radioButtonMercator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 24</value>
+  </data>
+  <data name="radioButtonMercator.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioButtonMercator.Text" xml:space="preserve">
+    <value>Mercator</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMercator.Name" xml:space="preserve">
+    <value>radioButtonMercator</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMercator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMercator.Parent" xml:space="preserve">
+    <value>groupBoxSelect</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMercator.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBoxSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 73</value>
+  </data>
+  <data name="groupBoxSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 121</value>
+  </data>
+  <data name="groupBoxSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSelect.Name" xml:space="preserve">
+    <value>groupBoxSelect</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSelect.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBoxPreview.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="pictureBoxPreview.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="pictureBoxPreview.ImageLocation" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pictureBoxPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 41</value>
+  </data>
+  <data name="pictureBoxPreview.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pictureBoxPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 145</value>
+  </data>
+  <data name="pictureBoxPreview.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="pictureBoxPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxPreview.Name" xml:space="preserve">
+    <value>pictureBoxPreview</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxPreview.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxPreview.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="buttonOFValidate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="buttonOFValidate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 280</value>
+  </data>
+  <data name="buttonOFValidate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonOFValidate.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonOFValidate.Text" xml:space="preserve">
+    <value>Valider</value>
+  </data>
+  <data name="&gt;&gt;buttonOFValidate.Name" xml:space="preserve">
+    <value>buttonOFValidate</value>
+  </data>
+  <data name="&gt;&gt;buttonOFValidate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOFValidate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonOFValidate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonOFCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 280</value>
+  </data>
+  <data name="buttonOFCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonOFCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="buttonOFCancel.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="&gt;&gt;buttonOFCancel.Name" xml:space="preserve">
+    <value>buttonOFCancel</value>
+  </data>
+  <data name="&gt;&gt;buttonOFCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOFCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonOFCancel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBoxPosWP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 282</value>
+  </data>
+  <data name="comboBoxPosWP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 21</value>
+  </data>
+  <data name="comboBoxPosWP.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPosWP.Name" xml:space="preserve">
+    <value>comboBoxPosWP</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPosWP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPosWP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPosWP.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelPosWP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 256</value>
+  </data>
+  <data name="labelPosWP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 23</value>
+  </data>
+  <data name="labelPosWP.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelPosWP.Text" xml:space="preserve">
+    <value>Positionnement à l'écran :</value>
+  </data>
+  <data name="labelPosWP.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;labelPosWP.Name" xml:space="preserve">
+    <value>labelPosWP</value>
+  </data>
+  <data name="&gt;&gt;labelPosWP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPosWP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPosWP.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelChangeWP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 197</value>
+  </data>
+  <data name="labelChangeWP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 23</value>
+  </data>
+  <data name="labelChangeWP.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelChangeWP.Text" xml:space="preserve">
+    <value>Mettre à jour toutes les (en mn) :</value>
+  </data>
+  <data name="labelChangeWP.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;labelChangeWP.Name" xml:space="preserve">
+    <value>labelChangeWP</value>
+  </data>
+  <data name="&gt;&gt;labelChangeWP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelChangeWP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelChangeWP.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="numericUpDownChangeWP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 223</value>
+  </data>
+  <data name="numericUpDownChangeWP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 20</value>
+  </data>
+  <data name="numericUpDownChangeWP.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="numericUpDownChangeWP.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownChangeWP.Name" xml:space="preserve">
+    <value>numericUpDownChangeWP</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownChangeWP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownChangeWP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownChangeWP.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxLaunchWin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 223</value>
+  </data>
+  <data name="checkBoxLaunchWin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 24</value>
+  </data>
+  <data name="checkBoxLaunchWin.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="checkBoxLaunchWin.Text" xml:space="preserve">
+    <value>Lancer au démarrage de la session</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLaunchWin.Name" xml:space="preserve">
+    <value>checkBoxLaunchWin</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLaunchWin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLaunchWin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxLaunchWin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="menuStripOption.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="aideToolStripMenuItem.AccessibleName" xml:space="preserve">
+    <value>helpbox</value>
+  </data>
+  <data name="aideToolStripMenuItem.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>F1</value>
+  </data>
+  <data name="aideToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F1</value>
+  </data>
+  <data name="aideToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="aideToolStripMenuItem.Text" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="aideToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="aProposToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="aProposToolStripMenuItem.Text" xml:space="preserve">
+    <value>A propos...</value>
+  </data>
+  <data name="misesÀJourToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 20</value>
+  </data>
+  <data name="misesÀJourToolStripMenuItem.Text" xml:space="preserve">
+    <value>Mises à jour ?</value>
+  </data>
+  <data name="menuStripOption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStripOption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>494, 24</value>
+  </data>
+  <data name="menuStripOption.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="menuStripOption.Text" xml:space="preserve">
+    <value>menuStripOption</value>
+  </data>
+  <data name="&gt;&gt;menuStripOption.Name" xml:space="preserve">
+    <value>menuStripOption</value>
+  </data>
+  <data name="&gt;&gt;menuStripOption.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStripOption.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStripOption.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>34</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>494, 326</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAAAAEAIABoBAAANgAAABgYAAABACAAiAkAAJ4EAAAgIAAAAQAgAKgQAAAmDgAAKAAAABAA
+        AAAgAAAAAQAgAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAOLi4iHr6+sY////AP///wD///8A2djYLayE
+        hYyiPDrZozEx33uOa6nBx8FH+vr6Be7u7hP6+voF////APj4+Aj8/PwD////AP///wC5rq5bsENB4boK
+        BP+9DgX/uhIG/25CB/8ElQH/AZUB/xmTF/SXrpdu////AOPj4yL///8A////AP///wC4qaletAcD/7wR
+        Bf/CFwj/xRwL/8ceDf8WjAP/AZwA/wGaAP8FlgH/A5IA/3hyTdf6+voF////AP///wDIv75CtAcE/74S
+        B//FHAv/ySYM/80sD/+SSRD/kkwN/zl6B/8ogQX/Y1wH/3dCCf9rRAb/pV9ds/T09Az7+/sEoyId47wR
+        Bv/EHAr/zigO/7Y4EP87gQj/mlES/8s+F/+qRRT/0zgQ/9EsEf/IIgv/wRYH/7sIBf/Ivr5EyL29QrkK
+        BP/CGAj/ySUN/7U8EP8MpAT/3EUe/81MHP/YTRz/3kkc/9tCGP/VNxX/zSkQ/8UdC/+8EAb/qkpIwaly
+        co+7Dwb/xRwK/88rEv85dgr/AKwA/wWuAv8CsgH/rmoa/+dWIP/hTBz/2UAX/9EyEv/JIwz/wRYH/7kH
+        Av+iHhvovxIH/8kgDP/CMxL/BKcC/wCtAP8AswD/ALcB/xytBf/iYyL/6FQg/95FG//UNxT/yygP/7wb
+        B/8UhAX/qQgF/74TCP/IIQ3/yDES/wSoAP8BrQD/ALQA/wG4AP8EuwD/GqMI/+BXHf/gRhv/1TgV/8sp
+        D/+ZMgf/AJQA/6hBPc++EAf/xx8M/9AtEf8ujQX/AawA/wCyAP8loAj/PJkL/w2tB/+zWBz/3EMZ/9M2
+        FP/LJg7/ijoJ/wCUAf+zkpJwugwE/8QbCv/MKg//X20I/wGpAP8ArwD/k3IX/2NxEv/WUx3/wU0W/9k8
+        F//QLxH/xCIL/xOJCP8DkwT/1dHRNLMLBf2+FQb/yCAN/4JSDf8CpQH/GJYF/zqECf98ZhT/X3MP/152
+        C//COBP/ry8R/25MCf9xOAf/cZ5vmvf39wmlXFy2uwsG/6kbC/8FnQL/L4AG/7o6E//VOhH/OYIL/wWp
+        Af9Qcwr/si8P/5YrDf8PlAX/O10K/+Tl5Bz///8A+vr6BaZAQMW6DgT/jzEI/5gzDP/KJA3/zicQ/60v
+        Dv+iNwv/uyUP/1VkCf81bAf/A5oB/7K1rVz///8A////AP///wD+/v4BpUdGvZYiBv8dhAP/thoI/8Ea
+        Cf/FGQz/wBgK/5YsCf8SjwP/BZgF/b3FvU3///8A////AP///wD///8A////AP///wC4p6dbco9ipAaT
+        Bv8cfwT/BZYD/xOHBP8XlRP3eKR4jtDR0Df///8A////AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAABgAAAAwAAAAAQAgAAAA
+        AABgCQAAAAAAAAAAAAAAAAAAAAAAAM/Pzz/Pz89I4eHhMP///wD///8A/v7+Af///wD///8A////APr6
+        +gba2NgtmWtstJZTV7+ZX2G/wcG+U////wD19fUL9vb2Cvj4+Afb29s2+Pj4B////wD///8A+fn5Bv//
+        /wD///8A////AP///wD///8A////AP///wD///8AwL28W5EcHf+oAgf/tQcB/70EBf+0CAD/MWcH/2CR
+        XLy/xcBZ////AP///wDv7+8R/Pz8A////wD///8A9vb2Cv///wD///8A////AP///wD///8A////AL2z
+        s4yjKSv6twcE/78IBP+5DAP/ug4D/70QAv+gGAr/CZID/wOXBP8DkQL/MpQu6f///wD///8A////ANzc
+        3Ij///8A////AP///wD///8A////AP///wC4p6dkswYF/7YPBP/BEQX/wxUI/8QZCf/GGwv/wxwN/wWc
+        AP8HnQD/AZwA/wGcAP8DmAL/ApgA/wORAP8CkQH/ipd9sv///wD///8A////AP///wD///8A////ANzc
+        3CigKynstQkC/74RB/+/FAj/whoJ/8YeDP/HHw3/zCEO/0hfCv8GmwT/AZ0A/wCcAP8AmQD/CJQC/wGV
+        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
+        Bv+QIgj/CZYD/5InAf/EFAj/xRcI/7sbCv/FGAv/vxUK/8gVA/87YQn/B5sB/wSaA/8UlhD36uvqFf//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AKKPjX2sGhnxN2sF/wSXAf8IkAf/NGYJ/wOc
+        Av8JjQX/H3cH/weeAv8EmgP/BpwF/5msl8Lo6Oga////AP///wD///8A////AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAA
+        AADPz88/z8/PSNjY2FL09PQO////AP///wD9/f0C////AP///wD///8A////AP///wD6+voG2tjYLaN7
+        e6qOWly/llNXv5lfYb+gmpWX8vLyD////wD19fUL7u7uFP///wD4+PgH29vbNvPz8w7///8A////AP//
+        /wD7+/sE9/f3Cf///wD///8A////AP///wD///8A////AP///wD///8A////AP///wDl5OQfrqakl5Ec
+        Hf+oAgf/swcB/7gHAv+9BAX/tAgA/1xICf8Hhgb/YJFcvL/FwFn///8A////AP///wDv7+8R+Pj4B///
+        /wD///8A////AO/v7xT///8A////AP///wD///8A/v7+Af///wD///8A////AP///wC9s7OMoykr+rIF
+        BP+8CQX/vwgE/7kMA/+6DQP/ug8E/70QAv+gGAr/DY4G/waXAf8DlwT/A5EC/wWOBP9bmlXT////AP//
+        /wD///8A/v7+Adzc3Ij///8A/v7+Af///wDz8/MP////AP///wD9/f0C////AP///wC9uLhvjhkW/7MG
+        BP++CAP/vAwE/74PBv++Egf/vxIH/78VB/+2GAv/Vk8I/wiTCv8BmQD/AJkB/wCYAP8BlgD/AJUA/wCV
+        AP8DjgX/ZZxnuf///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8AuKenZLAG
+        BP+2Bwb/tg8E/8ERBf/CFAf/xBYJ/8QZCf/GGwv/xh8H/8AaFP8FnAD/B50A/wKcAP8BnAD/AZwA/wOY
+        Av8ClwH/ApkA/wORAP8CkQH/Omoe/8nFxGX///8A////AP///wD///8A////AP///wD///8A////ANzc
+        3CigKynsswgA/7gLBP++EQf/vxQI/8EZCf/EHAn/xh4M/8cfDf/GIA//0yIN/0hfCv8GmwT/A54A/wCd
+        AP8AnAD/AJkA/wGWAP8QkwX/AZUB/wmRAv8raQr/pyYl+f///wDx8fEU////AP///wD///8A////AP//
+        /wD+/v4BqwUG/7AIAf+9DQb/vhIH/8IXCf/FHAv/xyAL/8kkDP/NKBD/zSgQ/9EpFf/QKg3/tyoL/wuW
+        Bv8LoAH/AJ8B/wCeAP8AmwD/ApgC/w2XBf8ncwj/NGMK/wqOB/8uaQr/oz087e3t7RPh4eEy////AP//
+        /wD///8A8/PzDJkMCP+9BQb/uQwF/78TCP/AFwr/xR0M/8kiDv/FKwr/0ikR/8YzDf/VMA//amMP/z5w
+        D//RNhH/tjoT/3ZUD/9nWQ7/WGkK/0pkCv+4Iw//xyEK/8QcC//BGAn/vREG/7kMBP+4CQD/pExMzf//
+        /wD///8A////AP///wCcX16irwgC/7UPBf+/Ewf/whgI/8UdDP/KJQ7/1icN/8wuEP/SMxH/qTsQ/zV9
+        Cf9Icg3/lksQ/9I8GP/WPRX/1zoY/9s3GP/WPQj/0jYM/9kqEf/OKg//ySMM/8YeCv/CGAj/vxMH/7gL
+        Bv++AwT/tqSjav///wD///8A7u7uE6MYFO6yCgL/vhAE/8AVCP/FHAn/yCEN/80oEP/NLBH/0DAU/21T
+        Dv8Ipgb/CKkC/7BLF//cQBj/3EEb/6hCGP9NaQ7/qjwT/9U4Gf/RNhX/zS8U/9EtEP/MJw7/ySIL/8Qa
+        CP/AFQf/xQoJ/7MJA/+lZGWp////AP///wDBr69QswcD/7sMA//CFAf/wRkJ/8chDP/KJg//0C4S/7I6
+        Ef8Slgr/D6YC/9ZAH//bQxz/1kgc/6NMFP/YSxj/4Uwd/9dIGv/eQxr/20IY/9g9F//TNxX/1DIV/84q
+        Ev/KJQ7/xR4K/8IaCf++Egb/uQwE/7IMDfbb2dks////AKFHRru7CQX/vg8G/8QWCf/FHgn/yiUM/80r
+        D//TMhL/gVcP/wepBf8LrAD/40ck/99NG//fUR7/3kwk/75MH//sUx3/5U4f/+BMHv/fRxr/3EMY/9g9
+        Fv/XNxX/0S8S/80pEP/JIg7/xR0M/8EVCv+8Dgb/swkB/7ElKOT6+voFrAoI+bkMBf++Egf/xBkJ/8cg
+        DP/OKRD/zS0X/0FVD/8niwj/AasA/wCuAP8DrwX/Ca4G/wWvBv8BtAH/0Vwc/+pZJP/kVyH/5lQf/+JO
+        H//eSBv/2kIZ/9g9Fv/RNRP/0C8Q/8wnDv/HIAr/xBkJ/74TBv+8CQL/wAUA/8zCwj+3BgL/uQ0G/78T
+        CP/FGgr/yCEN/88qEf/VLhT/bl8O/xCcBf8CrAD/AK4A/wSvAP8FsAD/BLIB/wC3AP8ukw7/02Id/+1a
+        Iv/oVyD/41Ee/+JMG//cRRn/2T4X/9M3Ff/RMBL/zScP/8giDP/EGQn/wBQI/7YICP+yBwD/mF1cpLcH
+        Af+8Dgb/wRYI/8cdC//LJA3/0CsQ/9cuGP8LpAb/AakC/wCtAP8BrgD/ALMA/wCzAP8AtgD/ALcB/wm6
+        AP9gjRH/8mIh/+ReIv/rViD/5VEe/95HG//cQhn/1zsX/9IzEv/OKxD/ySUO/8sdBP/AFAf/P2AH/wiQ
+        Bf+aDw//tQgB/70QB//DFwr/yB4M/8wlD//TLhP/kkYQ/wOpAP8DqgD/AK0A/wKvAf8AswD/ALQB/wC3
+        Af8CuQP/ALkB/wi2BP/CayH/8GEm/+laI//oUyD/4Uod/95EG//XOxf/0zUU/84sEP/JJg7/xh0K/6Mi
+        C/8HkgT/BZAF/54DBf+3CAH/uRAH/8MXCv/IHgz/ySUP/9AuE/+1NhT/BakA/wSoAP8ArAD/Aq8A/wCz
+        AP8AtQH/ArcB/wC5Av8LuwD/AL0B/wizBf8nmA3/5lwf/+hSIv/jSRz/3kQb/9g8GP/TNBP/ziwQ/8km
+        Dv/HHgj/c0UH/wCWAP8AkwD/nA8Q/7YHAf+7EAf/wxcK/8geDP/JJQ//0C4T/8wzEv8HpgD/AaoA/wCs
+        AP8CrwD/ALMA/wC1Af8CuAH/AbsA/wK9AP8GuQD/EacH/yubCf/iWiL/01QV/+NJHP/eRBv/2DwY/9M0
+        E//OLBD/ySYO/8QfCP9oSgn/AJYA/wCTAP+nPDf/uAYB/78OBv/BFgj/xx0L/8klDf/OLBD/yzQT/wSo
+        BP8IpwH/AKwA/wGuAP8AswD/ALUB/wO2Af8HtQP/QI0M/wW8Af8JuAT/EaYH/zVyFv/VTx7/4Ucb/9xC
+        Gf/YPBj/0zQT/84sEP/JJQ7/xR8I/2pJCf8AlwD/AZQB/8/BwUGyCAH/uwwG/8ATCP/GGwv/yCEN/88q
+        Ef/aLRT/p0EO/wamBP8BqgH/A60B/wCwAP8CswD/FKEJ/3h4Ff+gZRz/DrcE/wq3Af8ToRH/4lQf/+NO
+        Hf/cRRn/2j8Y/9Q4Ff/RMBL/zSgP/8kiDf+/FhP/Pm0D/wCXAv8CkgL/////ALESEPa3CwP/vREG/8QZ
+        Cf/GHwv/zScP/8sxD/+iPgz/B6cD/wCpAP8CrAD/AK8A/wGyAP9qgg//3Fsl/2l2Ff8nmAr/0lQg/+ZU
+        H//jTB7/3UYa/9lAGf/XPBX/0TUT/84uD//MJg3/xiAK/xiOCv8dfAf/BJUC/wCXAP////8ArkRDy7sI
+        Bf+8Dwb/wxgK/8UdDP/MJQ//ziwQ/8o1D/8LnQX/AqgB/wOpAv8ArQD/AK8A/yyZCv/dVB//qE0d/1Rs
+        D/+9WBj/404g/4NeEv/DRxH/3DwZ/9g5Ff/SMRH/0CoR/8ckD/+4IAf/B5YL/xOHCP8BlQL/CY4N////
+        /wCwhIO0tQcC/7oNBP/AFQf/wRkI/8chC//KKBL/zywU/zt/Bv8BpwD/AqgB/wKqAP8DqgH/BrEA/xOo
+        C//aSh//JY4L/7lQHP8qfQz/CrEA/71AE//XOBX/1DMT/88tEv/JJRL/vyAO/6MeCf8sZAf/V1oH/wOU
+        BP+LqYmN////AOfn5xysExD3tAoC/7oRBP/AFQj/xhwK/8wfEP/JJxT/N3kH/wWiAv8DpgL/E5sE/0tp
+        EP9rZRP/aFQJ/zl8D/+8RRf/k1gR/wirBv8FrAL/rjwY/4dNEP/XKxb/yyUU/1lGDf9LVQn/C6AG/5gZ
+        Cf+qDAj/PJY33f///wD///8A////AKmIiJC4BwX/ugoG/70QB//CFwr/ZykP/wahAv8DngH/BKMA/zR9
+        C//SLxP/bFwN/9g8Ef/SPhP/ZmQN/1V2D/8DqwP/A6sB/wKrAf94WxL/ZlEN/8QqDv+NMhH/YkgO/yd7
+        Bf8EngT/QFEG/1REDf+uuK1d////AOjo6Cf///8AxsLCTKkFBf+7Bwf/uw4H/8EVCv+8GAr/BpsH/wec
+        Af8HngP/gEQL/9gtF//UMRf/zzUU/9s5D/8algr/E5gH/wmmAv8FqwD/E5YI/7MyEf/JJRH/1R8S/7Ub
+        Cv+4Fwz/DZoH/wieB/8KmQT/UUgV/+zs7BT///8A////AP///wD///8A7e3tFbsDBv+9BwL/uw8D/7oW
+        Bf/DGgv/pyQH/3Q8Dv++JhH/zikP/88qEP/QKxH/1yoV/6wsEP9+SQ//SmcM/7EvB//LJRT/xSUQ/9Ae
+        D/9zPAr/GosJ/1pLCP8FnQL/AJwB/zVjDf+8tLNi////AP///wD///8A////AP///wD///8A3dzcJacY
+        FPK7CAL/vAwH/6kXB/8qcgn/bkwJ/8AeDP/HIAv/yCEM/8MlDv/PJQz/wScP/8skDv/NIw7/wSQN/8Qf
+        EP+aLgr/DZkI/wieBP9VSAr/DJMD/waYAf8DmAP/8PDwEf///wD///8A////AP///wD9/f0C////AP//
+        /wD///8A+fn5BqM4O8zBBwH/tQ4D/1BWCP8JlgT/WlEE/8YVDv+8GQ3/vR4M/8AeCf/SGBD/whwN/8Uc
+        Cf/AGwz/uBgM/58iDf84bAj/ApoE/wCaBP8CnAD/QpRC1dzd3Dj9/f0C////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A2NLSLqYFBv/EBQb/kCII/wuWA/8IlgT/kicB/8QUCP/FFgn/xRkI/7sb
+        Cv/FGAv/zRQI/7IXDP/IFQP/O2EJ/wyaA/8CnQD/BJoD/xSWEPfY2tgq////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AKKPjX2sGhnxYkIG/w2VBf8ElwH/CJAH/zJi
+        Cf82agn/A5wC/wmNBf8LjQn/NGEG/weeAv8EmgP/ApwD/wqcCP+ZrJfC6OjoGv///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD7+/sEfKF7kQqR
+        DP8ClQX/BZgB/wWaAP8GmAX/BJkD/wKWBP8OmgH/CpYF/0WMQOHNz809////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;aideToolStripMenuItem.Name" xml:space="preserve">
+    <value>aideToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aideToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aProposToolStripMenuItem.Name" xml:space="preserve">
+    <value>aProposToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aProposToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;misesÀJourToolStripMenuItem.Name" xml:space="preserve">
+    <value>misesÀJourToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;misesÀJourToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>OptionForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
